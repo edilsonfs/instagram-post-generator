@@ -1,0 +1,26 @@
+{
+    "name": "instagram-post-generator",
+    "version": "1.0.0",
+    "description": "Gerador automatico de posts para Instagram usando OpenAI GPT-4 e DALL-E",
+    "main": "generator.js",
+    "scripts": {
+          "start": "node generator.js",
+          "schedule": "node generator.js schedule",
+          "test": "node generator.js"
+    },
+    "keywords": [
+          "instagram",
+          "openai",
+          "automation",
+          "content-generator",
+          "dall-e",
+          "gpt-4"
+    ],
+    "author": "Seu Nome",
+    "license": "MIT",
+    "dependencies": {
+          "axios": "^1.6.2",
+          "dotenv": "^16.3.1",
+          "node-schedule": "^2.1.1"
+    }
+}
